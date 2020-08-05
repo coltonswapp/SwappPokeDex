@@ -12,10 +12,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Pokemon View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwappPokeDex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PokemonViewController" customModule="SwappPokeDex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,6 +160,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="aWildPokemonLabel" destination="wLb-Oh-2MZ" id="Bvq-Ph-Xaw"/>
+                        <outlet property="pokemonHeightLabel" destination="R2c-UY-tcF" id="9TP-JM-M4b"/>
+                        <outlet property="pokemonIDLabel" destination="LnA-nN-Ehz" id="ob7-I3-E4r"/>
+                        <outlet property="pokemonNameMainLabel" destination="PM6-EZ-HpE" id="rLa-nV-GWf"/>
+                        <outlet property="pokemonSearchBar" destination="IKb-AH-ZbY" id="QaM-EF-HrO"/>
+                        <outlet property="pokemonSpriteImageView" destination="0FW-3w-fH8" id="6jW-H5-w7G"/>
+                        <outlet property="pokemonTypeLabel1" destination="Yeu-2n-YhE" id="hjs-XC-zzr"/>
+                        <outlet property="pokemonTypeLabel2" destination="LWO-de-e4f" id="40s-Oa-lAT"/>
+                        <outlet property="pokemonTypeLabel3" destination="0z7-Wi-qD9" id="W6O-iC-d9z"/>
+                        <outlet property="pokemonWeightLabel" destination="T3v-S1-5PE" id="CjH-gz-Kb2"/>
+                        <outlet property="wildPokemonNameLabel" destination="g9M-xc-Zv8" id="itP-PB-2T3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
